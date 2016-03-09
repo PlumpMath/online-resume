@@ -1,0 +1,65 @@
+/**/_xdc_._dklzy9 && _xdc_._dklzy9( {
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ciampino",
+               "short_name" : "Ciampino",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Ciampino",
+               "short_name" : "Ciampino",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Città Metropolitana di Roma",
+               "short_name" : "RM",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Lazio",
+               "short_name" : "Lazio",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Ciampino RM, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.8216303,
+                  "lng" : 12.6248328
+               },
+               "southwest" : {
+                  "lat" : 41.7752242,
+                  "lng" : 12.5837891
+               }
+            },
+            "location" : {
+               "lat" : 41.802425,
+               "lng" : 12.6021389
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.8216303,
+                  "lng" : 12.6248328
+               },
+               "southwest" : {
+                  "lat" : 41.7752242,
+                  "lng" : 12.5837891
+               }
+            }
+         },
+         "place_id" : "ChIJdx0bApeIJRMRMgrEaJykQZs",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+ )

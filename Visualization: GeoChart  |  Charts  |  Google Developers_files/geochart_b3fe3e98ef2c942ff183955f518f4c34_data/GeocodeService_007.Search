@@ -1,0 +1,65 @@
+/**/_xdc_._ehpsac && _xdc_._ehpsac( {
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Anzio",
+               "short_name" : "Anzio",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Anzio",
+               "short_name" : "Anzio",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Città Metropolitana di Roma",
+               "short_name" : "RM",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Lazio",
+               "short_name" : "Lazio",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Anzio RM, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.5348753,
+                  "lng" : 12.6456741
+               },
+               "southwest" : {
+                  "lat" : 41.4428099,
+                  "lng" : 12.5744446
+               }
+            },
+            "location" : {
+               "lat" : 41.4495955,
+               "lng" : 12.6197253
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.5348753,
+                  "lng" : 12.6456741
+               },
+               "southwest" : {
+                  "lat" : 41.4428099,
+                  "lng" : 12.5744446
+               }
+            }
+         },
+         "place_id" : "ChIJR9jcdcu8JRMRLIjtBRWdjW8",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+ )

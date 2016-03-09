@@ -1,0 +1,45 @@
+/**/_xdc_._avzdpu && _xdc_._avzdpu( {
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "South America",
+               "short_name" : "South America",
+               "types" : [ "continent", "natural_feature", "establishment" ]
+            }
+         ],
+         "formatted_address" : "South America",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 17.6606999,
+                  "lng" : -29.3434
+               },
+               "southwest" : {
+                  "lat" : -56.1455,
+                  "lng" : -110.0281
+               }
+            },
+            "location" : {
+               "lat" : -8.783194999999999,
+               "lng" : -55.491477
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 17.6606999,
+                  "lng" : -29.3434
+               },
+               "southwest" : {
+                  "lat" : -56.1455,
+                  "lng" : -92.60379999999999
+               }
+            }
+         },
+         "place_id" : "ChIJtTRdNRw0CZQRK-PGyc8M1Gk",
+         "types" : [ "continent", "natural_feature", "establishment" ]
+      }
+   ],
+   "status" : "OK"
+}
+ )

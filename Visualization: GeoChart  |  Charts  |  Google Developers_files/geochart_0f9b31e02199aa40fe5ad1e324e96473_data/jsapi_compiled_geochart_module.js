@@ -1,0 +1,1 @@
+google.charts.packageLoadedCallback("geochart", ';window.google&&window.google.loader&&window.google.loader.eval&&window.google.loader.eval.visualization&&(window.google.loader.eval.visualization=function(){eval(arguments[0])});\n');

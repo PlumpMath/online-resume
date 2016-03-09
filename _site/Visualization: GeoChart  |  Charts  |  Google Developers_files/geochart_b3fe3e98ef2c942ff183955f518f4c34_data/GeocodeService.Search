@@ -1,0 +1,129 @@
+/**/_xdc_._mzhtzg && _xdc_._mzhtzg( {
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Palermo",
+               "short_name" : "Palermo",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Palermo",
+               "short_name" : "Palermo",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Provincia di Palermo",
+               "short_name" : "PA",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sicilia",
+               "short_name" : "Sicilia",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Palermo, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 38.2194316,
+                  "lng" : 13.4471566
+               },
+               "southwest" : {
+                  "lat" : 38.0615392,
+                  "lng" : 13.2674205
+               }
+            },
+            "location" : {
+               "lat" : 38.1156879,
+               "lng" : 13.3612671
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 38.2194316,
+                  "lng" : 13.4471566
+               },
+               "southwest" : {
+                  "lat" : 38.0615392,
+                  "lng" : 13.2674205
+               }
+            }
+         },
+         "place_id" : "ChIJmdBOgcnoGRMRgNg7IywECwo",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Palermo",
+               "short_name" : "Palermo",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Ceresole Alba",
+               "short_name" : "Ceresole Alba",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Provincia di Cuneo",
+               "short_name" : "CN",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Piemonte",
+               "short_name" : "Piemonte",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "12040",
+               "short_name" : "12040",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "12040 Palermo, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 44.84110159999999,
+                  "lng" : 7.821004599999999
+               },
+               "southwest" : {
+                  "lat" : 44.8380766,
+                  "lng" : 7.8167134
+               }
+            },
+            "location" : {
+               "lat" : 44.8394826,
+               "lng" : 7.8190477
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 44.84110159999999,
+                  "lng" : 7.821004599999999
+               },
+               "southwest" : {
+                  "lat" : 44.8380766,
+                  "lng" : 7.8167134
+               }
+            }
+         },
+         "place_id" : "ChIJSVLwrYb9h0cRXghoVBF4xis",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+ )
