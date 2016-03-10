@@ -1,4 +1,4 @@
-// Load the Visualization API and the piechart package.
+// Load the Visualization API
 google.load('visualization', '1.0', {
     'packages': ['corechart']
 });
@@ -26,25 +26,25 @@ function drawRadar() {
     var data = [
         [{
             axis: "Micro-services",
-            value: 0.60
-        }, {
-            axis: "Distributed systems",
             value: 0.80
         }, {
+            axis: "Distributed systems",
+            value: 0.95
+        }, {
             axis: "Functional language",
-            value: 0.90
+            value: 0.95
         }, {
             axis: "Up-skilling",
-            value: 0.70
+            value: 0.80
         }, {
             axis: "Agile team",
-            value: 0.60
+            value: 0.75
         }, {
             axis: "Digital transformation",
-            value: 0.70
+            value: 0.80
         }, {
             axis: "Information system",
-            value: 0.60
+            value: 0.75
         }, ]
     ];
     //////////////////////////////////////////////////////////////
@@ -71,7 +71,7 @@ function drawRadar() {
 // instantiates the pie chart, passes in the data and
 // draws it.
 function drawRegion() {
-    var data5 = new google.visualization.arrayToDataTable([
+    var data = new google.visualization.arrayToDataTable([
         ['Country', 'Enthusiasm'],
         ['Germany', 1],
         ['United Kingdom', 1],
@@ -129,7 +129,7 @@ function drawRegion() {
     ]);
 
 
-    var options5 = {
+    var options = {
         'backgroundColor': {
             fill: 'transparent'
         },
@@ -137,16 +137,16 @@ function drawRegion() {
     };
 
     var regions = new google.visualization.GeoChart(document.getElementById('regions'));
-    regions.draw(data5, options5);
+    regions.draw(data, options);
 }
 
 function drawTimeline() {
-    var data4 = new google.visualization.DataTable();
-    data4.addColumn('datetime', 'start');
-    data4.addColumn('datetime', 'end');
-    data4.addColumn('string', 'content');
-    data4.addColumn('string', 'type');
-    data4.addRows([
+    var data = new google.visualization.DataTable();
+    data.addColumn('datetime', 'start');
+    data.addColumn('datetime', 'end');
+    data.addColumn('string', 'content');
+    data.addColumn('string', 'type');
+    data.addRows([
         [new Date(2009, 7), , 'Baccalauréat S<br><img src="images/certificate-flat.svg" style="width:32px; height:32px;">', 'box'],
         [new Date(2009, 9, 1), new Date(2011, 6, 31), '<img src="images/stanislas.png" style="width:32px; height:32px; vertical-align:middle;"> Integrated prep classes', 'range'],
         [new Date(2011, 9, 1), new Date(2014, 7, 31), '<img src="images/isep.png" style="height:32px; vertical-align:middle;"> Engineering studies', 'range'],
@@ -165,7 +165,7 @@ function drawTimeline() {
     var start = new Date(2012, 7);
     var end = new Date(2017, 1);
 
-    var options4 = {
+    var options = {
         'width': 1500,
         'height': 'auto',
         'minHeight': 350,
@@ -179,7 +179,7 @@ function drawTimeline() {
     };
 
     var timeline = new links.Timeline(document.getElementById('timeline'));
-    timeline.draw(data4, options4);
+    timeline.draw(data, options);
 }
 
 function drawCharts() {
