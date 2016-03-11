@@ -52,7 +52,7 @@ function drawRadar() {
     //////////////////////////////////////////////////////////////
 
     var color = d3.scale.ordinal()
-        .range(["#EDC951", "#CC333F", "#00A0B0"]);
+        .range(["#CC333F"]);
 
     var radarChartOptions = {
         w: width,
