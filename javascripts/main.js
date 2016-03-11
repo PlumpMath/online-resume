@@ -1,3 +1,11 @@
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-74946040-1', 'auto');
+ga('send', 'pageview');
+
 // Load the Visualization API
 google.load('visualization', '1.0', {
     'packages': ['corechart']
@@ -149,7 +157,7 @@ function drawTimeline() {
     data.addRows([
         [new Date(2009, 7), , 'Baccalauréat S<br><img src="images/certificate-flat.svg" style="width:32px; height:32px;">', 'box'],
         [new Date(2009, 9, 1), new Date(2011, 6, 31), '<img src="images/stanislas.png" style="width:32px; height:32px; vertical-align:middle;"> Integrated prep classes', 'range'],
-        [new Date(2011, 9, 1), new Date(2014, 7, 31), '<img src="images/isep.png" style="height:32px; vertical-align:middle;"> Engineering studies', 'range'],
+        [new Date(2011, 9, 1), new Date(2014, 7, 31), '<img src="images/isep.png" style="height:32px; vertical-align:middle;"> Engineering studies: computer science, software engineering', 'range'],
         [new Date(2012, 7, 1), new Date(2012, 12, 31), '<img src="images/itelios.png" style="height:32px; vertical-align:middle;"> C# developper', 'range'],
         [new Date(2013, 9, 1), new Date(2014, 1, 31), '<img src="images/nctu.png" style="height:32px; vertical-align:middle;"> Semester abroad', 'range'],
         [new Date(2014, 2, 1), new Date(2014, 7, 31), '<img src="images/orange.jpg" style="height:32px; vertical-align:middle;"> Java / Flex developper', 'range'],
