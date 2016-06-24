@@ -165,7 +165,7 @@ function drawTimeline() {
         [new Date(2014, 9, 1), new Date(2015, 12, 31), '<img src="images/enst.jpg" style="width: 32px; height: 32px; vertical-align:middle;"> Advanced master', 'range'],
         [new Date(2015, 7, 1), new Date(2015, 12, 31), '<img src="images/transatel.png" style="width: 32px; height: 32px; vertical-align:middle;"> Java EE / Java 8 developer', 'range'],
         [new Date(2015, 12, 31), , 'Advanced master degree<br><img src="images/grad.svg" style="width:32px; height:32px;">', 'box'],
-        [new Date(), , '<img src="http://backoffice.adikteev.com/assets/logos/logo-def_couleur.png" style="height:32px; vertical-align: middle"> Adikteev 😀', 'floatingRange'],
+        [new Date(), , '<img src="http://backoffice.adikteev.com/assets/logos/logo-def_couleur.png" style="height:32px; vertical-align: middle"> 😀', 'floatingRange'],
     ]);
 
     var max = new Date();
